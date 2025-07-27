@@ -1,0 +1,81 @@
+h1, h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Roboto';
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FAF9EE;
+    z-index: 10;
+    border-radius: 0 0 25px 25px;
+    
+}
+
+.logo-icon{
+    width: 50px;
+    height: 50px;
+    color: #000;
+}
+
+.navbar a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.banner{
+    background: url('resources/images/programming.jpg');
+    padding: 250px 50px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 50px;
+    color: #FAF9EE;
+    text-transform: uppercase;
+}
+
+.banner h2{
+    color: #FAF9EE;
+}
+
+.banner button{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    background-color: #FAF9EE;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 15px;
+}
+
+.banner button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.banner button:active{
+    cursor: pointer;
+    transform: scale(1);
+}
