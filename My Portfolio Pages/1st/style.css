@@ -144,3 +144,39 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
+.form-wrapper {
+  display: flex;
+  justify-content: center;  /* vízszintesen középre */
+  align-items: center;      /* függőlegesen középre */
+  height: 100vh;            /* teljes képernyőmagasság */
+
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
