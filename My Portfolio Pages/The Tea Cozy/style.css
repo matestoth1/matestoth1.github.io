@@ -1,0 +1,133 @@
+/* Universal settings */
+*{
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+/* Navbar */
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    top: -1px;
+    z-index: 10; 
+    background-color: black;
+}
+
+.logo{
+    height: 50px;
+    padding-left: 10px;
+}
+
+.navbar{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Banner */
+.banner{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1p7h8sh*_gcl_au*NTA2MTcwNDkyLjE3NTI1NjU2NDM.*_ga*Njk0OTQ1MzYzNy4xNzUyNTY1NjQ1*_ga_3LRZM6TM9L*czE3NTM2OTA0MTQkbzIwJGcxJHQxNzUzNjk3MTU4JGo1NiRsMCRoMA..');
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner-text{
+    background-color:black;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+/* Section 1 */
+
+.section-1{
+padding: 50px 20px;
+max-width: 1000px;
+display: flex;
+flex-direction: column;
+margin: auto;
+background-color: black;
+}
+
+.tea-img{
+    height: 200px;
+    width: 300px;
+}
+
+.section-1-item{
+    text-align: center;
+}
+
+.section-1-items{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Section 2 */
+.section-2{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*jhwf1x*_gcl_au*NTA2MTcwNDkyLjE3NTI1NjU2NDM.*_ga*Njk0OTQ1MzYzNy4xNzUyNTY1NjQ1*_ga_3LRZM6TM9L*czE3NTM2OTA0MTQkbzIwJGcxJHQxNzUzNjk3MTU4JGo1NiRsMCRoMA..');
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.section-2-title{
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.section-2-item{
+    background-color: black;
+    width: 300px;
+    max-height: fit-content;
+    margin: 0 20px;
+}
+
+.section-2-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Section 3 */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    padding-left: 20px;
+}
